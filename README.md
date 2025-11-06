@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-recipe-page-using-css-flexbox-K-UnwXM7GJ)
+- Live Site URL: [Live Site](https://zvko-3dg3.github.io/recipe-page-main/)
 
 ## My process
 
