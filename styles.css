@@ -74,8 +74,10 @@ h2 {
   margin-bottom: 0;
 }
 
-.preparation-time-list > li {
-  text-indent: 15px;
+.preparation-time-list > li,
+.ingredients-list > li,
+.instructions-list > li {
+  padding-left: 10px;
 }
 
 .preparation-time-list > li::marker {
@@ -96,7 +98,6 @@ h2 {
 }
 
 .ingredients-list > li {
-  text-indent: 15px;
   margin-bottom: 10px;
 }
 
@@ -143,7 +144,6 @@ h2 {
   display: flex;
   flex-direction: row;
   gap: 120px;
-  text-indent: 24px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -168,8 +168,12 @@ dd {
 
 @media only screen and (max-width: 550px) {
   main {
-    width: 335px;
+    width: 100%;
     border-radius: 0;
+    padding: 0;
+  }
+  article {
+    padding: 20px;
   }
   img {
     border-radius: 0;
